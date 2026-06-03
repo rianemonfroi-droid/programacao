@@ -3,14 +3,14 @@
 <head>
     <title>página Riane </title>
     <style>
-        body {
+    body {
             background: #f0f2f5;
             display:flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0; }
-         .card{
+    .card{
             background: #fff;
             padding: 30px;
             border-radius: 12px;
@@ -18,19 +18,34 @@
             text-align: center;
             max-width: 350px;
             width: 100% 
-        }
+    }
+    h1{
+            color: #333;
+            margin-bottom: 10px; 
+    }
+    p{
+            color: #666;
+            font-size: 10px;
+            font-weight: bold;
+            color: #007bff;
+            margin: 20px 0;
+    }
+    button{
+        background: #007bff;
+        color: #fff;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    button:hover  {
+        background: #0056b3;
 
-            h1{
-                color: #333;
-                margin-bottom: 10px; 
-            }
-            p{
-                    color: #666;
-                    font-size: 14px;
-                }
+    }
+    </style>
 </head>
     <body>
-    <div>
+    <div class="card">
     <h1>SENAI</h1>
     <P>página simples combinado HTML, CSS e javaScript.</P>
     <div class="contador" id="numero-contador">0</div>
